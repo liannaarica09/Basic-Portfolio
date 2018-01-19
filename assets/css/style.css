@@ -1,0 +1,43 @@
+body {
+	background-color: grey;
+}
+
+header {
+	background-color: white;
+}
+
+.banner {
+	background-color: blue;
+	width: 279px;
+}
+
+nav ul li {
+	display:inline;
+	float: right;
+}
+
+#mainBody {
+	width:960px;
+	margin: auto;
+}
+
+#content {
+	background-color: white;
+	width:650px;
+	float:left;
+}
+
+#content img {
+	float: left;
+}
+
+#sidebar {
+	background-color: white;
+	width:270px;
+	float:right;
+}
+
+footer {
+	background-color: white;
+	clear: left;
+}
