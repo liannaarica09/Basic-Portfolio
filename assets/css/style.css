@@ -1,3 +1,7 @@
+*{
+	box-sizing:border-box;
+}
+
 body {
 	background-color: grey;
 }
@@ -6,29 +10,55 @@ header {
 	background-color: white;
 }
 
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	border-bottom: 1px solid grey;
+}
+
+h3 {
+	font-size: 20px;
+	border-bottom: 4px solid grey;
+}
+
 .banner {
+	display:inline-block;
 	background-color: blue;
-	width: 279px;
+	padding: 30px 20px 30px 20px;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav ul {
+	position: 
 }
 
 nav ul li {
-	display:inline;
-	float: right;
+	float: left;
+	padding:5px;
 }
 
 #mainBody {
 	width:960px;
 	margin: auto;
+	padding: 15px;
 }
 
 #content {
 	background-color: white;
 	width:650px;
+	padding:15px;
 	float:left;
 }
 
 #content img {
 	float: left;
+	margin: 10px;
 }
 
 #sidebar {
