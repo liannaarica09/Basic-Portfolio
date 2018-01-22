@@ -7,37 +7,51 @@
 </head>
 <body>
 	<header>
-		<div class="banner">
-			<h1>Maureen Bockrath</h1>
+		<div id="headerContent">
+			<div class="banner">
+				<h1>Maureen Bockrath</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#" class="leftBorder">Portfolio</a></li>
+					<li><a href="#" class=leftBorder>Contact</a></li>
+				</ul>
+			</nav>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
 	</header>
 
 	<div id="mainBody">
-		<div id="content">
-			<h2>Portfolio</h2>
-			<img src="">
-			<p></p>
-			<img src="">
-			<p></p>
-			<img src="">
-			<p></p>
-			<img src="">
-			<p></p>
-			<img src="">
-			<p></p>
+		<div class="content galleryContent">
+			<h1>Portfolio</h1>
+			<div class="left">
+				<img src="assets/images/mobile-phone.jpg" alt="Woman with phone.">
+				<p>Hangman</p>
+			</div>
+			<div class="right">
+				<img src="assets/images/bridge.jpg" alt="SciFi bridge">
+				<p>RPG Game</p>
+			</div>
+			<div class="left">
+				<img src="assets/images/question-mark.jpg" alt="Question marks">
+				<p>Trivia Game</p>
+			</div>
+			<div class="right">
+				<img src="assets/images/bazar.jpg" alt="Thrift store.">
+				<p>Seasons Widget</p>
+			</div>
+			<div class="left">
+				<img src="assets/images/rock-paper-scissors.gif" alt="Rock, paper, scissors hand signs">
+				<p>Rock Paper Scissors</p>
+			</div>
 		</div>
 		<article id="sidebar">
-			<p>Connect With Me</p>
-			<img src="./assets/images/github.png" height="70px">
-			<img src="./assets/images/linkedin.png" height="70px">
-			<img src="./assets/images/stackoverflow.png" height="70px">
+			<h2>Connect With Me</h2>
+			<div id="iconContainer">
+				<img src="./assets/images/github.png" height="70" alt="github icon">
+				<img src="./assets/images/linkedin.png" height="70" alt="linkedIn icon">
+				<img src="./assets/images/stackoverflow.png" height="70" alt="Stack Overflow icon">
+			</div>
 		</article>
 	</div>
 
