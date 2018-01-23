@@ -65,6 +65,13 @@ nav ul li a {
 	padding: 0px 20px 0px 20px;
 }
 
+nav ul li a:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color:#4aaaa5;
+}
+
 .leftBorder {
 	border-left: 2px solid silver;
 }
@@ -114,10 +121,22 @@ nav ul li a {
 	padding:20px 0px 20px 0px;
 }
 
+#iconContainer img{
+	-webkit-filter: invert(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: invert(0%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: invert(0%);
+	-o-transition: .5s ease-in-out;
+}
+
 #iconContainer img:hover{
-	-webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+	-webkit-filter: invert(90%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: invert(90%); 
+	-moz-transition: .5s ease-in-out;
+	-o-filter: invert(90%); 
+	-o-transition: .5s ease-in-out;
 }
 
 .wrap {
